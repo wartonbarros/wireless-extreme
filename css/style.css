@@ -1,0 +1,344 @@
+html {
+    /* background-color: #4f4f4f; */
+    background-image: url(../img/background3.jpg);
+    background-color: black;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    opacity: 90%;
+
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+h1 {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    /* position: static; */
+    padding: 20px;
+    margin: 10px auto auto auto;
+    width: 82%;
+    max-width: 1024px;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Sarabun', sans-serif;
+    font-family: 'Sriracha', cursive;
+    text-shadow: -0.1em -0.1em #333;
+    /* text-shadow: 0.1em 0.1em #333; */
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    /* overflow: scroll; */
+}
+
+
+#indice {
+    background-color: black;
+    opacity: 90%;
+    /* margin: 0 auto; */
+    width: 80%;
+    max-width: 1024px;
+    padding: 30px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.indiceTitulo {
+    font-size: 2em;
+    padding: 2px;
+    color: white;
+}
+
+.indiceItem {
+    color: black;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.indiceItem a:link {
+    text-decoration: none;
+}
+
+.indiceItem a:visited {
+    text-decoration: none;
+}
+
+/* .indiceTitulo a:link {
+    text-decoration: none;
+} */
+
+/* .indiceTitulo a:visited {
+    text-decoration: none;
+} */
+
+#indice li a:link {
+    text-decoration: none;
+}
+
+#indice li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+.corpo-alinhamento {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1024px;
+    background-color: ;
+}
+
+.paragrafos {
+    /* overflow: scroll; */
+}
+
+div p {
+    text-align: justify;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+
+p {
+    font-size: 1.2em;
+    color: white;
+    line-height: 1.5;
+    padding: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sarabun', sans-serif;
+    background-color: black;
+    opacity: 90%;
+}
+
+.tituloParagrafo {
+    background-color: black;
+    opacity: 90%;
+    /* margin: 0 auto; */
+    width: 80%;
+    max-width: 1024px;
+    padding: 0px 30px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+
+    color: white;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+/* p:nth-child( 3n + 1 ) {
+	background-color: red;
+} */
+
+p:nth-last-child(-n + 1) {
+    /* background-color: red; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+/**
+ * formatação do menu
+ */
+#menu {
+    background-color: #101010;
+    /* opacity: 80%; */
+    border-radius: 10px;
+}
+
+ #menu ul {
+     padding:20px;
+     margin-left: 25%;
+     max-width: 1024px;
+     /* width: 100%; */
+     list-style:none;
+ }
+
+ /**
+  * deixando opções em linha horizontal com display: inline;
+  */
+#menu ul li { display: inline; }
+
+
+/**
+ * definindo visual do menu
+ */
+ #menu ul li a {
+     font-family: 'Permanent Marker', cursive;
+     font-family: 'Righteous', cursive;
+     font-family: 'Sarabun', sans-serif;
+     font-size: 1.5em;
+     padding: 10px 10px;
+     display: inline-block;
+     transition: background-color 0.3s , color 0.3s , border-bottom 0.3s;
+     transition-timing-function: ease-out;
+     background-color: transparent;
+
+     /* visual do link */
+     /* background-color:#EDEDED; */
+     color: white;
+     text-decoration: none;
+     border-bottom:3px solid #EDEDED;
+ }
+
+/**
+ * colocando efeitos do mouse
+ */
+ #menu ul li a:hover {
+     background-color: transparent;
+     color: #6D6D6D;
+     border-bottom:5px solid #EA0000;
+ }
+
+ #menu ul li a:active {
+     border-bottom:5px solid #EA0000;
+ }
+
+
+
+
+
+ #divBusca{
+  background-color: white;
+  /* border:solid 0px #101010; */
+  border-radius:10px;
+  width:300px;
+  height:32px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 22%;
+  margin-left: 60%;
+  position: relative;
+  left: 100px;
+  top: 3px;
+}
+
+
+
+#divBusca img {
+    height: 32px;
+    width: 32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:70px;
+  font-weight:bold;
+  color: white;
+  background:#282828;
+}
+
+#divBusca img{
+  float:left;
+}
+
+
+
+
+
+
+
+
+/* estilização rodapé */
+
+#rodape {
+    /* background-color: #101010; */
+    /* opacity: 70%; */
+    border-radius: 10px;
+    height: 200px;
+    width: 80%;
+    max-width: 1024px;
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#rodape ul {
+    display: inline-block;
+    padding: 2em;
+    margin-left: 10%;
+    margin-bottom: 1em;
+    vertical-align: top;
+    background-color: #101010;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+#rodape a:link {
+    text-decoration: none;
+}
+
+#rodape a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    opacity: 50%;
+}
+
+.texto-rodape-menu {
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align: baseline;
+    text-shadow: 10px:
+}
+
+.texto-rodape-item {
+    font-size: 1.1em;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+#direitos {
+    width: 100%;
+}
+
+#direitos ul {
+    background-color: transparent;
+    margin-bottom: 5px;
+    display: contents;
+}
+
+.copyright {
+    padding: 0px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+
+
+
+/* fim estilização rodapé */
