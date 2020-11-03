@@ -57,13 +57,7 @@ h1 {
     padding: 5px;
 }
 
-.indiceItem a:link {
-    text-decoration: none;
-}
 
-.indiceItem a:visited {
-    text-decoration: none;
-}
 
 /* .indiceTitulo a:link {
     text-decoration: none;
@@ -73,13 +67,18 @@ h1 {
     text-decoration: none;
 } */
 
-#indice li a:link {
+#indice a:link {
+    color: white;
     text-decoration: none;
 }
 
-#indice li a:visited {
+#indice a:visited {
     color: white;
     text-decoration: none;
+}
+
+#indice a:hover {
+    opacity: 50%;
 }
 
 
@@ -284,6 +283,7 @@ p:nth-last-child(-n + 1) {
 }
 
 #rodape a:link {
+    color: white;
     text-decoration: none;
 }
 
